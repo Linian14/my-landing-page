@@ -1,0 +1,314 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* outline: 1px solid white ; */
+}
+html{
+    scroll-behavior: smooth;
+}
+.let{
+    color: white;
+    font-size: 45px;
+}
+h4{
+    color: white;
+    font-size: 19px;
+}
+h6{
+    color: white;
+    font-size: 18px;
+    line-height: 20px;
+}
+body{
+    background-color: black;
+}
+.container{
+    width: 100%;
+    height: 100%;
+    background-color:black;
+    
+}
+.nav{
+    display: flex;
+    justify-content:space-between;
+    gap: 15rem; 
+    align-items: center;
+    border-top: 1px solid red;
+    justify-content: start;
+}
+button{
+    padding:0rem;
+    border: none;
+    color: black;
+
+}
+.line1, .line2{
+    border-left: 1px solid red;
+    height: 4vh;
+    margin-top: 0.5rem;
+    /* width: 10vw; */
+}
+.line{
+    border-top:1px outset red ;
+    width: 100%;
+    height: 1vh;
+    margin-top: 1rem;
+}
+.links{
+    display: flex;
+    gap: 2rem;
+    /* margin-left: 1rem; */
+    
+}
+.links a{
+    font-weight: 900;
+    color:white;
+    text-decoration: none;
+    transition-duration: 1s;
+      
+}
+.links a:hover{
+    color: red;
+}
+#home{
+    color: red;
+}
+#home:hover{
+    color: white;
+}
+nav{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: baseline;
+}
+.links{
+    display: flex;
+    gap: 2rem;
+}
+.links a{
+    color: white;
+    text-decoration: none;
+    transition-duration: 1s;
+}
+span{
+    color: red;
+}
+
+.logo{
+    padding: 0.25rem 2rem;
+    background-color: red;
+    clip-path: polygon(0 0, 75% 0, 100% 100%, 0 100%);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.img{
+    background-image: url(download.jpeg);
+    width: 100%;
+    height: 80vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+.search{
+    margin-left: 7rem;
+}
+h2{
+    font-weight: 900;
+    font-size: 50px;
+    margin-left: 5rem;
+
+}
+.img h2 {
+    padding-top: 10rem;
+}
+
+.start, .start1{
+    color: white;
+    margin-left: 14rem;
+}
+.start1{
+    margin-top: 4rem;
+    margin-left: 22rem;
+}
+p, p1{
+    color: white;
+    margin-left:14rem ;
+    font-size: 20px;
+}
+p1{
+    margin-left: 30rem;
+}
+#black{
+    font-weight: 900;
+    font-size: 50px;
+    margin-left: 17rem;
+    margin-top: 5rem;
+    color: red;
+}
+#white{
+    margin-left: 17rem;
+    color: white;
+    font-size: 20px;
+}
+#white2{
+    margin-bottom: 12rem;
+    margin-left: 15rem;
+}
+#icons{
+    display: flex;
+    gap: 2rem;
+    margin-left: 3rem;
+    margin-top: 2rem;
+    left: 12rem;
+    gap: 2rem;
+    
+}
+ .business, .design, .website, .research, .support{
+    align-items: center;
+    bottom: 30px;
+    border: 1px;
+    border-radius: none;
+    padding: 1rem;
+    background-color: black;
+    color: red;
+    width: 10rem;
+    height: 10rem;
+    box-shadow: 3px 5px 7px 0.5px rgb(12, 12, 12);
+}
+.design2, .business2, .management2, .cyber{
+    bottom: 30px;
+    border: 1px;
+    border-radius: 1.5rem 0rem 0rem 0rem;
+    padding: 1rem;
+    background-color: black;
+    color: red;
+    width: 10rem;
+    height: 10rem;
+    margin-left: 5rem;
+    margin-top: 0.5rem;
+    box-shadow: 3px 5px 7px 0.5px rgb(12, 12, 12);
+}
+
+ button{ 
+    border: none;
+    border-radius: 1rem;
+    padding: 1rem 2rem;
+    background-color: red;
+}
+#icons{
+    position: absolute;
+    top: 28rem;
+}
+
+#black{
+    margin-top: 10rem ;
+}
+.top-icons{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    color: white;
+}
+.nav button{
+    padding: 3px;
+}
+.search {
+    display: flex;
+    text-align: center;
+}
+.search input{
+    padding: 10px;
+    border: none;
+    border-radius: 15px;
+}
+.projects{
+    display: flex;
+    justify-content: center;
+    gap: 10rem;
+    margin-top: 2rem;
+    color: white;
+}
+.dark-background{
+    background-image: url(download\ \(3\).jpeg);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.awesome{
+    margin-top: 10rem;
+}
+.awesome-services{
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 1rem 1rem;
+    background-color: red;
+    margin-top: 8rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.work-icons{
+    background-color: red;
+    width: 100%;
+    height: 32vh;
+    display: flex;
+    gap: 5rem;
+    margin-top: 6rem;
+}
+.dark-background{
+    margin-top: 5rem;
+}
+.wolf{
+    border-radius: 50%;
+    margin-top: 3rem;
+}
+.left{
+    /* display: flex; */
+    border: 2px red solid;
+    background-color: transparent;
+    color: red;
+    padding: 1rem 1rem;
+    padding-top: 2rem;
+    width: 25vw;
+    height: 64vh;
+    font-size: 20px;
+    gap: 1rem;
+    margin-top: 3rem;
+    margin-left: 15rem;
+
+    
+}
+label{
+    display: block;
+}
+.display-flex{
+    display: flex;
+    gap: 5rem;
+
+}
+.side-icons{
+    margin-top: 2rem;
+    /* position: relative; */
+}
+.chatting{
+    margin-left: 1rem;
+    margin-top: 2rem;
+}
+.footer{
+    background-color: red;
+    height: 30vh;
+}
+.end{
+    
+    display: flex;
+    gap: 7rem;
+    padding-top: 3rem;
+    margin-left: 5rem;
+}
+.last-line{
+    border-bottom: 1px solid white;
+    width:30vw ;
+}
